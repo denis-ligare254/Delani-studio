@@ -8,6 +8,7 @@
     <!-- bootstrap link -->
     <link rel="stylesheet" href="./bootstrap-4.5 (1).2-dist/css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="./bootstrap-4.5 (1).2-dist/js/bootstrap.min.js">
+    <link rel="stylesheet" href="./script.js">
     <title>Delani studio</title>
  
 </head>   
@@ -41,36 +42,36 @@
 
 <!-- what we do section -->
 <div class="container what-we-do">
-    <h2 class="headings">what we do</h2>
+    <h2 class="headings">WHAT WE DO</h2>
     <div class="row">
         <div class="col-md-4">
             <div id="design">
-               
-                 <!-- <p class="p1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores cupiditate quam aperiam vero architecto sapiente alias itaque autem voluptas distinctio.</p>  -->
+                <h2 class="title">DESIGN</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque, facere provident id facilis, omnis rerum animi similique repellat consectetur a, blanditiis voluptatibus. Repellat, facilis et?</p>
             </div>
-            <div id="product-image">
+            <div id="design-img">
                 <img src="./images/design_icon.png" alt="design">
                 <p>DESIGN</p>
             </div>
         </div>
         <div class="col-md-4">
             <div id="development">
-               
-                <!-- <p class="p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia earum atque unde officia inventore laudantium magnam fuga pariatur quibusdam corporis!.</p>  -->
+                <h2 class="title">DEVELOPMENT</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro commodi ipsum modi! Maxime ullam doloremque, voluptate consequatur facere repudiandae animi eligendi perferendis asperiores, quisquam laudantium.</p>
             </div>
-            <div id="product-image">
+            <div id="development-img">
                 <img src="./images/dev_icon.png" alt="development">
                 <P>DEVELOPMENT</P>
             </div>
         </div>
         <div class="col-md-4">
             <div id="product">
-            
-               <!-- <p class="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea nihil quasi facilis incidunt repellat explicabo similique aliquam asperiores nulla velit.</p>  -->
+                <h2 class="title">PRODUCT </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit natus impedit adipisci, autem quo, similique quos labore aut unde ea nisi provident accusamus velit!</p>
             </div>
             <div id="product-image">
                 <img src="./images/product_icon.png" alt="products">
-                <P>PRODUCTS</P>
+                <P>PRODUCT MANAGEMENT</P>
             </div>
         </div>
     </div>
@@ -94,19 +95,53 @@
     <p>Delani studio<br><span>2020</span></p>
     </div>
 </footer>
-<!-- jquery scripts -->
+//jquery scripts
+<script src="./jquery-3.5.1.min.js"> </script> 
+        <script script >
+        // product section
+        $(document).ready(function () {
 
-<script src="./jquery-3.5.1.min.js"></script>
-<script>
-$(document).ready(function(){
-    $('.p1').hide();
- $('.product-image').click(function{
+            $("#product-image").click(function () {
+                $("#product-image").slideDown();
+                $("#product").show('1500');
+            })
 
- })
-})
+            $("#product").click(function () {
+                $("#product").slideUp('1500');
+                $("#product-image").slideDown();
+            });
+        });
 
+    // development section
+
+
+    $(document).ready(function () {
+
+        $("#development-img").click(function () {
+            $("#development-img").slideDown();
+            $("#development").show('1500');
+        })
+        $("#development").click(function () {
+            $("#development").slideUp('1500');
+            $("#development-img").slideDown();
+        });
+    });
+
+    // design section
+
+
+    $(document).ready(function () {
+
+        $("#design-img").click(function () {
+            $("#design-img").slideDown();
+            $("#design").show('1500');
+        })
+        $("#design").click(function () {
+            $("#design").slideUp('1500');
+            $("#design-img").slideDown();
+        });
+    });
 </script>
-<!-- jquery scripts end -->
 </body>
 </html>
     
