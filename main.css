@@ -92,3 +92,14 @@ span{
   background-color: var(--primarycolor);
   
 }
+.img1{
+  width: 200px;
+  height: 200px;
+}
+@media screen and (min-width:800px){
+  .portfolio{
+    float:left;
+    width: 33.3%;
+    padding: 40px;
+  }
+}
