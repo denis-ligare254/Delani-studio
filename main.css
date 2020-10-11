@@ -1,0 +1,74 @@
+:root{
+ --primarycolor:#ffffff;
+ --secondarycolor:#000000;
+ --spacing:3px;
+ --transition:all 2s linear;
+}
+
+
+
+.main{
+ background: url('../images/h_img.jpg') center/cover fixed no-repeat;
+ text-align: center;
+ color: var(--primarycolor);
+ padding: 5rem auto;
+
+}
+.main-logo{
+ transform: translateY(50);
+}
+.bottom-logo{
+ margin-top: 100px;
+}
+.about-us{
+ text-align: center;
+
+}
+.about{
+ text-transform: uppercase;
+ margin-top: 15px;
+}
+span{
+ color:orange;
+}
+.main-services{
+ background: url('../images/s_image.jpg') ;
+ color: var(--primarycolor);
+ text-align: center;
+ padding: 2rem ;
+}
+.services{
+ text-transform: uppercase;
+}
+@media screen and (min-width:576px){
+  .nav{
+   display: grid;
+   grid-template-columns: repeat(3 ,1fr);
+   align-content: space-between;
+   
+  }
+}
+.whatwedo{
+ text-align: center;
+ text-transform: uppercase;
+}
+.portfolio{
+ width: 50px;
+ height: 50px;
+}
+.main-portfolio{
+ text-align: center;
+ padding: 2rem;
+ text-transform: uppercase;
+}
+@media screen and (min-width:576px){
+ .portfolio{
+  display: grid;
+  grid-template-columns: repeat(4 ,1fr);
+  grid-gap:30px;
+ }
+}
+.pt{
+ width: 200px;
+ height: 200px;
+}
