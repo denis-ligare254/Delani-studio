@@ -1,7 +1,7 @@
 :root{
  --primarycolor:#ffffff;
  --secondarycolor:#000000;
- --spacing:3px;
+ --spacing:1px;
  --transition:all 2s linear;
 }
 
@@ -14,8 +14,15 @@
  padding: 5rem auto;
 
 }
-.main-logo{
- transform: translateY(50);
+h1{
+  text-transform: uppercase;
+}
+.main{
+
+ font-size: 15px;
+}
+#main-logo{
+  font-size: 5px;
 }
 .bottom-logo{
  margin-top: 100px;
@@ -25,14 +32,18 @@
 
 }
 .about{
- text-transform: uppercase;
- margin-top: 15px;
+  text-align: center;
+  margin-top: 15px;
 }
 span{
  color:orange;
 }
+.first-paragraph{
+  text-align: center;
+  padding: 1.5rem;
+}
 .main-services{
- background: url('../images/s_image.jpg') ;
+ background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.9)) ,url('../images/s_image.jpg') ;
  color: var(--primarycolor);
  text-align: center;
  padding: 2rem ;
