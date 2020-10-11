@@ -99,3 +99,12 @@ span{
 .major{
   background-color: red;
 }
+/* contact form */
+.contact-section{
+  background: url('./social_icons/c_image.jpg') center/cover fixed no-repeat;
+}
+.main-form{
+  text-align: center;
+  background-color: transparent;
+  padding: 3rem;
+}
