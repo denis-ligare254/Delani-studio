@@ -51,6 +51,7 @@ span{
 .headings{
  text-align: center;
  text-transform: uppercase;
+ padding: 2rem;
 }
 .portfolio{
  width: 50px;
@@ -71,4 +72,10 @@ span{
 .pt{
  width: 200px;
  height: 200px;
+}
+.footer-icons{
+  background-color:gray;
+  text-align: center;
+  padding: 2rem;
+  
 }
