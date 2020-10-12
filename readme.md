@@ -12,6 +12,9 @@ This software is easy to install and test as one needs to follow the following s
 #### link to the github repo
 -(https://github.com/denis-ligare254/Delani-studio)
 
+#### link to gh-pages live server
+-https://denis-ligare254.github.io/Delani-studio/
+
 ### Technologies used here 
 The following are technologies used
 -HTML5
