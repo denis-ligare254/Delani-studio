@@ -8,7 +8,7 @@
 
 
 .main{
- background: url('../images/h_img.jpg') center/cover fixed no-repeat;
+ background: url('./images/h_img.jpg') center/cover fixed no-repeat;
  text-align: center;
  color: var(--primarycolor);
  padding: 5rem auto;
@@ -18,11 +18,15 @@ h1{
   text-transform: uppercase;
 }
 .main{
-
+transform: translateY(-50);
  font-size: 15px;
 }
 #main-logo{
-  font-size: 5px;
+ margin-top: 12px;
+ margin-bottom: 24px;
+ width: 70px;
+ /* height: 70px;
+ transform:translateX(80) */
 }
 .bottom-logo{
  margin-top: 100px;
@@ -43,7 +47,7 @@ span{
   padding: 1.5rem;
 }
 .main-services{
- background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.9)) ,url('../images/s_image.jpg') ;
+ background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.9)) ,url('./images/s_image.jpg') ;
  color: var(--primarycolor);
  text-align: center;
  padding: 2rem ;
@@ -100,6 +104,7 @@ span{
   background-color: red;
 }
 /* contact form */
+
 .contact-section{
   background: url('./social_icons/c_image.jpg') center/cover fixed no-repeat;
 }
@@ -107,4 +112,181 @@ span{
   text-align: center;
   background-color: transparent;
   padding: 3rem;
+}
+.contact-h{
+  color: var(--primarycolor);
+  text-align: center;
+  padding: 2rem;
+  text-transform: uppercase;
+}
+.main-btn{
+  background-color:yellowgreen;
+  color:var(--secondarycolor);
+  padding:10px;
+  outline-offset: 2px solid black;
+  outline: 5px;
+}
+#portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: 18%;
+  margin-right: 16%;
+}
+@media only screen and (max-width: 425px) {
+
+  #overlay,
+  #overlay2,
+  #overlay3,
+  #overlay4,
+  #overlay5,
+  #overlay6,
+  #overlay7,
+  #overlay8 {
+    width: 100%;
+    height: 100%;
+    top: 20px;
+    left: 16px;
+    padding-top: 20%;
+    font-size: 20px;
+  }
+  
+}
+@media only screen and (min-width: 825px) {
+
+  #overlay,
+  #overlay2,
+  #overlay3,
+  #overlay4,
+  #overlay5,
+  #overlay6,
+  #overlay7,
+  #overlay8 {
+    width: 100%;
+    height: 100%;
+    top: 20px;
+    left: 20px;
+    padding-top: 30%;
+  }
+
+  .col-md-3 img {
+    width: 400px;
+    margin: 20px;
+  }
+
+  #portfolio {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+
+@media only screen and (min-width: 625px) {
+
+  #overlay,
+  #overlay2,
+  #overlay3,
+  #overlay4,
+  #overlay5,
+  #overlay6,
+  #overlay7,
+  #overlay8 {
+    width: 100%;
+    height: 100%;
+    top: 20px;
+    left: 20px;
+    padding-top: 20%;
+    font-size: 26px;
+  }
+
+  .col-md-3 img {
+    width: 400px;
+    margin: 20px;
+  }
+
+  #portfolio {
+    margin-left: 6%;
+    margin-right: 10%;
+  }
+}
+/* ///////////////////////////////////////////////////////////////// */
+ 
+
+.contact {
+  background-image: url("../assets/backgrounds/c_image.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  /* text-align: center; */
+}
+
+.title {
+  padding: 6px;
+}
+
+#contact {
+  background-image: url("../assets/backgrounds/c_image.jpg");
+  background-size: cover;
+  margin-bottom: 50px;
+  padding-top: 100px;
+  width: 100%;
+  max-width: 100%;
+  margin-top: 10%;
+}
+
+.form input {
+  width: 100%;
+  background: transparent;
+}
+
+form textarea {
+  margin-top: 20px;
+  width: 100%;
+  background: transparent;
+}
+
+
+.mail {
+  padding-bottom: 30px;
+}
+
+::placeholder,
+.mail {
+  color: rgb(163, 154, 154);
+}
+
+
+footer {
+  text-align: center;
+  padding-top: 30px;
+  font-family: 'Delius Swash Caps', cursive;
+}
+
+footer p {
+  margin-top: 10px;
+}
+#product,
+#development,
+#design {
+  display: none;
+  font-family: 'Copse', serif;
+  font-size: 16px;
+}
+
+#product .title,
+#development .title,
+#design .title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+
+.col-md-3 img {
+  width: 100%px;
+  margin: 20px;
+}
+
+#portfolio {
+  margin-left: 8%;
+  margin-right: 16%;
 }
