@@ -21,6 +21,7 @@ The following are technologies used
 -CSS3
 -JQUERY
 -GIT 
+-MAILCHIMP
 
 # MIT LICENCE
 Copyright (c) 2020 denis ligare
