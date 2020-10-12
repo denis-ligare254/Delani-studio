@@ -1,17 +1,23 @@
 # Delani studios
 ## *Done by Denis Ligare* 
 ## escription
-A simple web application that lets the user interact using mailchimp service
+A simple web application that lets the user interact using mailchimp service.the web application is friendly and easy to use.Lastly the web application contains dummy paragraphs for illustrations.
+### instalation procedures
+This software is easy to install and test as one needs to follow the following setup procedures.
+-clone the application using a (git clone command).
+-after cloning,open the folder where you have cloned the project
+-use your favorite browser to open a index.html file
+-enjoy the view and the testing
 
+#### link to the github repo
+-(https://github.com/denis-ligare254/Delani-studio)
 
-
-
-
-
-
-
-
-
+### Technologies used here 
+The following are technologies used
+-HTML5
+-CSS3
+-JQUERY
+-GIT 
 
 # MIT LICENCE
 Copyright (c) 2020 denis ligare
